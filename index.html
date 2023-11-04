@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attire Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/shopping-bag-icon.png" type="image/x-icon">
+
+    
+
+    <!-- link for bootstrap css -->
+    <link rel="stylesheet" href="./bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+
+    <!-- link for font awesome icons -->
+    <script src="https://kit.fontawesome.com/4c4d50e1df.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- navbar -->
+        <nav class="navbar sticky-top fixed-top bg-light">
+            <div id="container-1">
+                <a href="index.html"><img src="./images/shopping-bag-icon.png" alt="" width="40px" height="40px"></a>
+                <h4>ATTIRE</h4>
+            </div>
+            
+            <div id="container-2">
+                <li><a href="index.html" id="no-underline">HOME</a></li>
+                <!-- <li><a href="" id="no-underline">COLLECTION</a></li> -->
+                <li><a href="shop.html" id="no-underline">SHOP</a></li>
+                <li><a href="blog.html" id="no-underline">BLOG</a></li>
+                <li><a href="about.html" id="no-underline">ABOUT</a></li>
+                <li><a href="contact.html" id="no-underline">CONTACT US</a></li>
+                <a href="" id="close"><i class="fa-sharp fa-solid fa-xmark"></i></a>
+            </div>
+            <div>
+                <a href="cart.html" style="margin-right: 50px; padding: 10px 10px;" class="text-black"><i class="fa-solid fa-bag-shopping fa-xl"></i></a>
+                <a href="login.html"><i class="fa-solid fa-user fa-lg me-4 text-black"></i></a>
+            </div>
+            
+            <!-- <a href=""><i class="fa-duotone fa-cart-shopping"></i></a> -->
+            <!-- <img id="imag" src="./images/shopping-cart.png" alt="" width="25px" height="20px" style="margin-right: 50px;"> -->
+            
+            <div id="mobile">
+                <i id="bar" class="fa-solid fa-outdent"></i>
+            </div>
+    
+        </nav>
+        <!-- end of navbar -->
+
+
+
+        <!-- carousel images slide-->
+    <header>
+        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+            <div class="carousel-inner c-item" id="hero">
+              <div class="carousel-item active">
+                <img src="./images/banner-img-1.jpg" class="d-block w-100 c-image" alt="...">
+                    <div class=" top-0 mt-4 carousel-caption d-none d-md-block">
+                        <p class=" mt-5 fs-3 text-uppercase">Best Collection</p>
+                        <h1 class="display-1 fw-bolder text-capitalize">New Arrival</h1>
+                        <a href = "shop.html" class = "btn btn-primary px-4 py-2 fs-5 mt-5" id="btn-btn">Shop Now</a>
+                    </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="./images/hero4.png" class="d-block w-100 c-image" alt="...">
+                    <div class=" top-0 mt-4 carousel-caption d-none d-md-block">
+                        <p class=" mt-5 fs-3  text-black">Trade-in-offer</p>
+                        <h1 class="display-3 fw-bold text-capitalize text-black">Super value deals</h1>
+                        <h1 class="display-3 fw-bold text-capitalize text-success">On all products</h1>
+                        <a href = "shop.html" class = "btn btn-primary px-4 py-2 fs-5 mt-5" id="btn-btn">Shop Now</a>
+                    </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+    </header>
+    <!-- end of carousel images slide-->
+
+
+
+    <!-- features section -->
+    <section id="features" class="section-p1">
+        <div id="b-box">
+            <img src="./images/img/features/f1.png" alt="">
+            <h6 class="text-center">Free Shipping</h6>
+        </div>
+        <div id="b-box">
+            <img src="./images/img/features/f2.png" alt="">
+            <h6 class="text-center">Online Order</h6>
+        </div>
+        <div id="b-box">
+            <img src="./images/img/features/f3.png" alt="">
+            <h6 class="text-center">Save Money</h6>
+        </div>
+        <div id="b-box">
+            <img src="./images/img/features/f4.png" alt="">
+            <h6 class="text-center">Promotion</h6>
+        </div>
+        <div id="b-box">
+            <img src="./images/img/features/f5.png" alt="">
+            <h6 class="text-center">Happy Sell</h6>
+        </div>
+        <div id="b-box">
+            <img src="./images/img/features/f6.png" alt="">
+            <h6 class="text-center">F24/7 Support</h6>
+        </div>
+        
+    </section>
+    <!-- end of features section -->
+
+
+
+        <!-- new collection section -->
+    <section class="collection">
+        <h2 class="text-center mt-5 mb-3 display-5 ">New Collection</h2>
+        <h6 class="text-center display-7 fw-lighter">Summer collection New Modern Design</h6>
+
+        <div id="main-container">
+            <div id="mini-container" class="m-3">
+
+                <img src="./images/img/products/f1.jpg" alt="" width="400px" >
+                <div id="desc">
+                    <span class="ml-0 fw-lighter">shirt</span>
+                    <h6 class="ml-0 fw-bolder">Hawaiian shirt Mens</h6>
+                    
+                    <div id="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div style="display: flex;" >
+                        <h5 class="ml-0 fw-bolder">$78</h5>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="mini-container" class="m-3">
+
+                <img src="./images/img/products/f2.jpg" alt="" width="400px" >
+                <div id="desc">
+                    <span class="ml-0 fw-lighter">shirt</span>
+                    <h6 class="ml-0 fw-bolder">Hawaiian shirt Mens</h6>
+                    
+                    <div id="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div style="display: flex;" >
+                        <h5 class="ml-0 fw-bolder">$78</h5>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="mini-container" class="m-3">
+
+                <img src="./images/img/products/f3.jpg" alt="" width="400px" >
+                <div id="desc">
+                    <span class="ml-0 fw-lighter">shirt</span>
+                    <h6 class="ml-0 fw-bolder">Hawaiian shirt Mens</h6>
+                    
+                    <div id="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div style="display: flex;" >
+                        <h5 class="ml-0 fw-bolder">$78</h5>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="mini-container" class="m-3">
+
+                <img src="./images/img/products/f4.jpg" alt="" width="400px" >
+                <div id="desc">
+                    <span class="ml-0 fw-lighter">shirt</span>
+                    <h6 class="ml-0 fw-bolder">Hawaiian shirt Mens</h6>
+                    
+                    <div id="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div style="display: flex;" >
+                        <h5 class="ml-0 fw-bolder">$78</h5>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="mini-container" class="m-3">
+
+                <img src="./images/img/products/f5.jpg" alt="" width="400px" >
+                <div id="desc">
+                    <span class="ml-0 fw-lighter">shirt</span>
+                    <h6 class="ml-0 fw-bolder">Hawaiian shirt Mens</h6>
+                    
+                    <div id="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div style="display: flex;" >
+                        <h5 class="ml-0 fw-bolder">$78</h5>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="mini-container" class="m-3">
+
+                <img src="./images/img/products/f6.jpg" alt="" width="400px" >
+                <div id="desc">
+                    <span class="ml-0 fw-lighter">shirt</span>
+                    <h6 class="ml-0 fw-bolder">Button-down Shirt</h6>
+                    
+                    <div id="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div style="display: flex;" >
+                        <h5 class="ml-0 fw-bolder">$78</h5>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="mini-container" class="m-3">
+
+                <img src="./images/img/products/f7.jpg" alt="" width="400px" >
+                <div id="desc">
+                    <span class="ml-0 fw-lighter">trousers</span>
+                    <h6 class="ml-0 fw-bolder">Trousers Cropped Pants</h6>
+                    
+                    <div id="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div style="display: flex;" >
+                        <h5 class="ml-0 fw-bolder">$78</h5>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="mini-container" class="m-3">
+
+                <img src="./images/img/products/f8.jpg" alt="" width="400px" >
+                <div id="desc">
+                    <span class="ml-0 fw-lighter">shirt</span>
+                    <h6 class="ml-0 fw-bolder">Blouse Womens</h6>
+                    
+                    <div id="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div style="display: flex;" >
+                        <h5 class="ml-0 fw-bolder">$78</h5>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+
+    </section>
+        <!-- end of collection section -->
+
+
+
+        <!-- banner section -->
+    <section class="banner-1 text-center mt-5 pt-5 text-white">
+        <h6>Repair Service </h6>
+        <h3> Up to 70% off All t-Shirts & Accessories</h3>
+        <a href="shop.html"><button>Explore More</button></a>
+    </section>
+    <!-- end of banner section -->
+
+
+
+        <!-- new arrival section -->
+        <section class="collection">
+            <h2 class="text-center mt-5 mb-3 display-5 ">New Arrivals</h2>
+            <h6 class="text-center display-7 fw-lighter">Summer Collection New Modern Design</h6>
+    
+            <div id="main-container">
+                <div id="mini-container" class="m-3">
+    
+                    <img src="./images/img/products/n1.jpg" alt="" width="400px" >
+                    <div id="desc">
+                        <span class="ml-0 fw-lighter">shirt</span>
+                        <h6 class="ml-0 fw-bolder">Button-down Shirt</h6>
+                        
+                        <div id="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div style="display: flex;" >
+                            <h5 class="ml-0 fw-bolder">$78</h5>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="mini-container" class="m-3">
+    
+                    <img src="./images/img/products/n2.jpg" alt="" width="400px" >
+                    <div id="desc">
+                        <span class="ml-0 fw-lighter">shirt</span>
+                        <h6 class="ml-0 fw-bolder">Button-down Shirt</h6>
+                        
+                        <div id="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div style="display: flex;" >
+                            <h5 class="ml-0 fw-bolder">$78</h5>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="mini-container" class="m-3">
+    
+                    <img src="./images/img/products/n3.jpg" alt="" width="400px" >
+                    <div id="desc">
+                        <span class="ml-0 fw-lighter">shirt</span>
+                        <h6 class="ml-0 fw-bolder">Button-down Shirt</h6>
+                        
+                        <div id="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div style="display: flex;" >
+                            <h5 class="ml-0 fw-bolder">$78</h5>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="mini-container" class="m-3">
+    
+                    <img src="./images/img/products/n4.jpg" alt="" width="400px" >
+                    <div id="desc">
+                        <span class="ml-0 fw-lighter">shirt</span>
+                        <h6 class="ml-0 fw-bolder">Button-down T-shirt</h6>
+                        
+                        <div id="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div style="display: flex;" >
+                            <h5 class="ml-0 fw-bolder">$78</h5>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="mini-container" class="m-3">
+    
+                    <img src="./images/img/products/n5.jpg" alt="" width="400px" >
+                    <div id="desc">
+                        <span class="ml-0 fw-lighter">shirt</span>
+                        <h6 class="ml-0 fw-bolder">Button-down Shirt</h6>
+                        
+                        <div id="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div style="display: flex;" >
+                            <h5 class="ml-0 fw-bolder">$78</h5>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="mini-container" class="m-3">
+    
+                    <img src="./images/img/products/n6.jpg" alt="" width="400px" >
+                    <div id="desc">
+                        <span class="ml-0 fw-lighter">short</span>
+                        <h6 class="ml-0 fw-bolder">Belted-Shorts</h6>
+                        
+                        <div id="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div style="display: flex;" >
+                            <h5 class="ml-0 fw-bolder">$78</h5>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="mini-container" class="m-3">
+    
+                    <img src="./images/img/products/n7.jpg" alt="" width="400px" >
+                    <div id="desc">
+                        <span class="ml-0 fw-lighter">shirt</span>
+                        <h6 class="ml-0 fw-bolder">Button-down Shirt</h6>
+                        
+                        <div id="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div style="display: flex;" >
+                            <h5 class="ml-0 fw-bolder">$78</h5>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="mini-container" class="m-3">
+    
+                    <img src="./images/img/products/n8.jpg" alt="" width="400px" >
+                    <div id="desc">
+                        <span class="ml-0 fw-lighter">shirts</span>
+                        <h6 class="ml-0 fw-bolder">Button-down T-Shirt</h6>
+                        
+                        <div id="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div style="display: flex;" >
+                            <h5 class="ml-0 fw-bolder">$78</h5>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+    
+        </section>
+        <!-- end of new arrival section -->
+
+
+
+        <!-- small banner section -->
+        <section class="sm-banner mt-5 pt-3 text-center text-white">
+            <div id="sm-1" class="">
+                <h5>crazy deals</h5>
+                <h4>buy 1 get 1 free</h4>
+                <h6>The best classic dress is on sale at Attire Home</h6>
+                <button>Learn More</button>
+            </div>
+            <div id="sm-2">
+                <h5>spring/summer</h5>
+                <h4>the upcoming season</h4>
+                <h6>The best classic dress is on sale at Attire Home</h6>
+                <button>Collection</button>
+            </div>
+            
+        </section>
+        <!-- end of small banner section -->
+
+
+        <!-- small banner 3 section -->   
+        <section class="sm-banner-3 mt-5 pt-3" >
+            <div id="sm-3">
+                <h4 class="text-uppercase fw-bolder text-white">seasonal sale</h4>
+                <h6 class="text-danger fw-bolder">Winter collection -50% OFF</h6>
+            </div>
+            <div id="sm-4">
+                <h4 class="text-uppercase fw-bolder text-white">new footwear collection</h4>
+                <h6 class="text-danger fw-bolder">Spring/Summer 2023</h6>
+            </div>
+            <div id="sm-5">
+                <h4 class="text-uppercase fw-bolder text-white">t-shirts</h4>
+                <h6 class="text-danger fw-bolder">New Trendy Prints</h6>
+            </div>
+            
+        </section>
+        <!-- end of small banner 3 section      -->
+
+
+        <!-- newsletter section -->
+        <section class="newsletter mt-5 pt-3">
+            <div>
+                <h4 class="text-white">Sign Up For Newsletters</h4>
+                <p class="text-secondary">Get updates about our latest shop and <span class="text-warning">special offers.</span> </p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Your e-mail address">
+                <button >Sign Up</button>
+            </div>
+        </section>
+        <!-- end of newsletter section -->
+
+
+
+        <!-- footer section -->
+        <footer class="bg-dark py-5">
+            <div class="container">
+                <div class="row row-cols-auto">
+                    <div id="d1">
+                        <a href="" class="text-white text-decoration-none"><h4>ATTIRE</h4></a>
+                        <p class="text-secondary">
+                            Attire is a contemporary clothing company dedicated to providing stylish and high-quality apparel for fashion-conscious individuals. With a passion for modern design and a commitment to craftsmanship, we curate a diverse collection of clothing that embodies both comfort and sophistication.
+                        </p>
+                    </div>
+                    <div id="d2">
+                        <h4 class="text-white">Links</h4>
+                        <ul class="list-unstyled ">
+                            <li class="my-3"><a href="index.html" class="text-decoration-none text-secondary"><i class="fa-solid fa-chevron-right me-2"></i>Home</a></li>
+                            <li class="my-3"><a href="shop.html" class="text-decoration-none text-secondary"><i class="fa-solid fa-chevron-right me-2"></i>Collection</a></li>
+                            <li class="my-3"><a href="blog.html" class="text-decoration-none text-secondary"><i class="fa-solid fa-chevron-right me-2"></i>Blogs</a></li>
+                            <li class="my-3"><a href="about.html" class="text-decoration-none text-secondary"><i class="fa-solid fa-chevron-right me-2"></i>About Us</a></li>
+                        </ul>
+                        
+                    </div>
+                    <div id="d3">
+                        <h4 class="text-white">Contact Us</h4>
+                        <div class="my-2">
+                            <span><i class="fa-solid fa-map-location-dot text-secondary me-3"></i></span>
+                            <span class="text-secondary">Albert Street, New York, AS 756, United States of America</span> 
+                        </div>
+                        <div  class="my-2">
+                            <span><i class="fa-solid fa-envelope text-secondary me-3"></i></i></span>
+                            <span class="text-secondary">attire.support@gmail.com</span> 
+                        </div>
+                        <div class="my-2">
+                            <span><i class="fa-solid fa-phone text-secondary me-3"></i></i></span>
+                            <span class="text-secondary">+212 70 681 5978</span> 
+                        </div>
+                        
+
+
+                    </div>
+                    <div id="d4">
+                        <h4 class="text-white">Follow Us</h4>
+                        <div class="text-secondary">
+                            <ul class="list-unstyled d-flex">
+                                <li><a href = "#" class = "text-decoration-none text-secondary fs-4 me-4"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href = "#" class = "text-decoration-none text-secondary fs-4 me-4"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href = "#" class = "text-decoration-none text-secondary fs-4 me-4"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href = "#" class = "text-decoration-none text-secondary fs-4 me-4"><i class="fa-brands fa-pinterest"></i></a></li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer section -->
+
+
+
+    
+
+    <!-- link for jquery -->
+    <script src="./js/jQuery_v3.6.3_min.js"></script>
+    
+    <!-- link for bootstrap js -->
+    <script src="./bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

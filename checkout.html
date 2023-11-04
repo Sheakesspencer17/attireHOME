@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attire Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/shopping-bag-icon.png" type="image/x-icon">
+
+    
+
+    <!-- link for bootstrap css -->
+    <link rel="stylesheet" href="./bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+
+    <!-- link for font awesome icons -->
+    <script src="https://kit.fontawesome.com/4c4d50e1df.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+}
+
+.container form{
+  padding:20px;
+  width:700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container form .row .col{
+  flex:1 1 250px;
+}
+
+.container form .row .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+  margin:15px 0;
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #e5345b;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container form .submit-btn:hover{
+  background: #2ecc71;
+}
+    </style>
+
+</head>
+<body>
+    <!-- navbar -->
+        <nav class="navbar sticky-top fixed-top bg-light">
+            <div id="container-1">
+                <a href="index.html"><img src="./images/shopping-bag-icon.png" alt="" width="40px" height="40px"></a>
+                <h4>ATTIRE</h4>
+            </div>
+            
+            <div id="container-2">
+                <li><a href="index.html" id="no-underline">HOME</a></li>
+                <!-- <li><a href="" id="no-underline">COLLECTION</a></li> -->
+                <li><a href="shop.html" id="no-underline">SHOP</a></li>
+                <li><a href="blog.html" id="no-underline">BLOG</a></li>
+                <li><a href="about.html" id="no-underline">ABOUT</a></li>
+                <li><a href="contact.html" id="no-underline">CONTACT US</a></li>
+                <a href="" id="close"><i class="fa-sharp fa-solid fa-xmark"></i></a>
+            </div>
+            
+            <div>
+                <a href="cart.html" style="margin-right: 50px; padding: 10px 10px;" class="text-black"><i class="fa-solid fa-bag-shopping fa-xl"></i></a>
+                <a href="login.html"><i class="fa-solid fa-user fa-lg me-4 text-black"></i></a>
+            </div>
+            <!-- <a href=""><i class="fa-duotone fa-cart-shopping"></i></a> -->
+            <!-- <img id="imag" src="./images/shopping-cart.png" alt="" width="25px" height="20px" style="margin-right: 50px;"> -->
+            
+            <div id="mobile">
+                <i id="bar" class="fa-solid fa-outdent"></i>
+            </div>
+    
+        </nav>
+        <!-- end of navbar -->
+
+
+    <!-- the checkout form -->
+        <div class="container">
+
+            <form action="">
+        
+                <div class="row">
+        
+                    <div class="col">
+        
+                        <h3 class="title">billing address</h3>
+        
+                        <div class="inputBox">
+                            <span>full name :</span>
+                            <input type="text" placeholder="John John">
+                        </div>
+                        <div class="inputBox">
+                            <span>email :</span>
+                            <input type="email" placeholder="example@example.com">
+                        </div>
+                        <div class="inputBox">
+                            <span>address :</span>
+                            <input type="text" placeholder="room - street - locality">
+                        </div>
+                        <div class="inputBox">
+                            <span>city :</span>
+                            <input type="text" placeholder="New York">
+                        </div>
+        
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>state :</span>
+                                <input type="text" placeholder="United States">
+                            </div>
+                            <div class="inputBox">
+                                <span>zip code :</span>
+                                <input type="text" placeholder="123 456">
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="col">
+        
+                        <h3 class="title">payment</h3>
+        
+                        <div class="inputBox">
+                            <span>cards accepted :</span>
+                            <img src="images/card_img.png" alt="">
+                        </div>
+                        <div class="inputBox">
+                            <span>name on card :</span>
+                            <input type="text" placeholder="Mr. John John">
+                        </div>
+                        <div class="inputBox">
+                            <span>credit card number :</span>
+                            <input type="number" placeholder="1111-2222-3333-4444">
+                        </div>
+                        <div class="inputBox">
+                            <span>exp month :</span>
+                            <input type="text" placeholder="January">
+                        </div>
+        
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>exp year :</span>
+                                <input type="number" placeholder="2022">
+                            </div>
+                            <div class="inputBox">
+                                <span>CVV :</span>
+                                <input type="text" placeholder="1234">
+                            </div>
+                        </div>
+        
+                    </div>
+            
+                </div>
+        
+                <input type="submit" value="proceed to checkout" class="submit-btn">
+        
+            </form>
+        
+        </div> 
+    <!-- end of the checkout form  -->
+
+
+
+
+        <!-- footer section -->
+        <footer class="bg-dark py-5">
+            <div class="container">
+                <div class="row row-cols-auto">
+                    <div id="d1">
+                        <a href="" class="text-white text-decoration-none"><h4>ATTIRE</h4></a>
+                        <p class="text-secondary">
+                            Attire is a contemporary clothing company dedicated to providing stylish and high-quality apparel for fashion-conscious individuals. With a passion for modern design and a commitment to craftsmanship, we curate a diverse collection of clothing that embodies both comfort and sophistication.
+                        </p>
+                    </div>
+                    <div id="d2">
+                        <h4 class="text-white">Links</h4>
+                        <ul class="list-unstyled ">
+                            <li class="my-3"><a href="index.html" class="text-decoration-none text-secondary"><i class="fa-solid fa-chevron-right me-2"></i>Home</a></li>
+                            <li class="my-3"><a href="shop.html" class="text-decoration-none text-secondary"><i class="fa-solid fa-chevron-right me-2"></i>Collection</a></li>
+                            <li class="my-3"><a href="blog.html" class="text-decoration-none text-secondary"><i class="fa-solid fa-chevron-right me-2"></i>Blogs</a></li>
+                            <li class="my-3"><a href="about.html" class="text-decoration-none text-secondary"><i class="fa-solid fa-chevron-right me-2"></i>About Us</a></li>
+                        </ul>
+                        
+                    </div>
+                    <div id="d3">
+                        <h4 class="text-white">Contact Us</h4>
+                        <div class="my-2">
+                            <span><i class="fa-solid fa-map-location-dot text-secondary me-3"></i></span>
+                            <span class="text-secondary">Albert Street, New York, AS 756, United States of America</span> 
+                        </div>
+                        <div  class="my-2">
+                            <span><i class="fa-solid fa-envelope text-secondary me-3"></i></i></span>
+                            <span class="text-secondary">attire.support@gmail.com</span> 
+                        </div>
+                        <div class="my-2">
+                            <span><i class="fa-solid fa-phone text-secondary me-3"></i></i></span>
+                            <span class="text-secondary">+212 70 681 5978</span> 
+                        </div>
+                        
+
+
+                    </div>
+                    <div id="d4">
+                        <h4 class="text-white">Follow Us</h4>
+                        <div class="text-secondary">
+                            <ul class="list-unstyled d-flex">
+                                <li><a href = "#" class = "text-decoration-none text-secondary fs-4 me-4"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href = "#" class = "text-decoration-none text-secondary fs-4 me-4"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href = "#" class = "text-decoration-none text-secondary fs-4 me-4"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href = "#" class = "text-decoration-none text-secondary fs-4 me-4"><i class="fa-brands fa-pinterest"></i></a></li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer section -->
+
+
+
+    
+
+    <!-- link for jquery -->
+    <script src="./js/jQuery_v3.6.3_min.js"></script>
+    
+    <!-- link for bootstrap js -->
+    <script src="./bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
